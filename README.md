@@ -1,19 +1,30 @@
+# meli-challenge
 Elegí usar React + CSS para este challenge.
-
-    Pequeñas instrucciones:
-
+<br>
+Pequeñas instrucciones:
+<br>
 
 Luego de clonar, ejecutar estos comandos:
-cd meli-challenge
-npm install
-npm run install-client
-
+<br>
+<code>cd meli-challenge</code> <br>
+<code>npm install</code>
+<br>
+<code>npm run install-client</code>
+<br>
+<br>
 Al finalizar, correr el siguiente script:
-npm run dev (para correr client y server al mismo tiempo)
-
+<br>
+<code>npm run dev (para correr client y server al mismo tiempo)</code>
+<br>
 o sinó:
-npm run client (para correr solo client)
-npm run server (para correr solo server)
-
+<br>
+<code>npm run client (para correr solo client)</code>
+<br>
+<code>npm run server (para correr solo server)</code>
+<br>
+<br>
 - Dependencies:
-react, express, cors (facilita manejo de url params y query) , concurrently (levanta client y server al mismo tiempo), nodemon (dev-dependency) 
+- <br>
+react, express, cors (facilita manejo de url params y query) , concurrently (levanta client y server al mismo tiempo), nodemon (dev-dependency)
+<br>
+nota: usé como base una repo de brad-traversy que básicamente es un boilerplate para correr client y server al mismo tiempo. Solo se usó para ese fin.
