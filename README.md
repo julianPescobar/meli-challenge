@@ -1,43 +1,24 @@
-# React Express Starter Pack
+# meli-challenge
 
-> Create full stack apps with React and Express. Run your client and server with a single command. 
+Elegí usar React + CSS para este challenge.
 
-### Redux Version
-This version does not include Redux
-[Click Here For Redux Version](https://github.com/bradtraversy/react_redux_express_starter) 
-
-## Quick Start
-
-``` bash
-# Install dependencies for server
-npm install
-
-# Install dependencies for client
-npm run client-install
-
-# Run the client & server with concurrently
-npm run dev
-
-# Run the Express server only
-npm run server
-
-# Run the React client only
-npm run client
-
-# Server runs on http://localhost:5000 and client on http://localhost:3000
-```
-
-## App Info
-
-### Author
-
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
-
-### Version
-
-1.0.0
-
-### License
-
-This project is licensed under the MIT License
+> Pequeñas instrucciones:
+<br>
+Luego de clonar, ejecutar estos comandos: 
+<br>
+<code>npm install </code>
+<br>
+<code>npm run install-client</code>
+<br>
+<br>
+Al finalizar, correr el siguiente script:
+<br><code>npm run dev</code> (para correr client y server al mismo tiempo) <br>
+<br>
+o sinó: <br>
+<code>npm run client</code> (para correr solo client)<br>
+<code>npm run server</code> (para correr solo server)
+<br>
+<br>
+- Dependencies:
+<br>
+react, express, cors (facilita manejo de url params y query) , concurrently (levanta client y server al mismo tiempo), nodemon  (dev-dependency) 

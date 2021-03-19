@@ -1,18 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
-import Customers from './components/customers';
+import ProductList from './components/product-list/product-list';
+import ProductDetail from './components/product-detail/product-detail';
+import SearchBar from './components/searchbar/searchbar';
 
 class App extends Component {
   render() {
+    //en el pdf pareciera que el searchbar siempre está, asi que se respeta eso.
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">React Express Starter</h1>
-        </header>
-        <Customers />
-      </div>
+      <Router>
+        <div className="App">
+          <SearchBar />
+          <Switch>
+          <Route path="/items/:id" component={ProductDetail} />
+            <Route path="/items" component={ProductList} />
+           
+             
+            
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }
