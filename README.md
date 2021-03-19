@@ -6,6 +6,7 @@ Elegí usar React + CSS para este challenge.
 <br>
 Luego de clonar, ejecutar estos comandos: 
 <br>
+<code>cd meli-challenge</code><br>
 <code>npm install </code>
 <br>
 <code>npm run install-client</code>
