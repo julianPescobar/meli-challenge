@@ -24,7 +24,7 @@ o sinó:
 <br>
 <br>
 - Dependencies:
-- <br>
+<br>
 react, express, cors (facilita manejo de url params y query) , concurrently (levanta client y server al mismo tiempo), nodemon (dev-dependency)
 <br>
-nota: usé como base una repo de brad-traversy que básicamente es un boilerplate para correr client y server al mismo tiempo. Solo se usó para ese fin.
+_nota: usé como base una repo de brad-traversy que básicamente es un boilerplate para correr client y server al mismo tiempo. Solo se usó para ese fin.
