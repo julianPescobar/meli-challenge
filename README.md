@@ -27,4 +27,5 @@ o sinó:
 <br>
 react, express, cors (facilita manejo de url params y query) , concurrently (levanta client y server al mismo tiempo), nodemon (dev-dependency)
 <br>
-_nota: usé como base una repo de brad-traversy que básicamente es un boilerplate para correr client y server al mismo tiempo. Solo se usó para ese fin.
+<br>
+NOTA:<br> usé como base una repo de brad-traversy que básicamente es un boilerplate para correr client y server al mismo tiempo. Solo se usó para ese fin.
